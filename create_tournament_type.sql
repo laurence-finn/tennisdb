@@ -3,7 +3,7 @@ CREATE TABLE tournament_types (
     tournament_type_name VARCHAR2(50) NOT NULL UNIQUE
 );
 
-INSERT INTO tournament_types (type_name) VALUES ('ATP250');
-INSERT INTO tournament_types (type_name) VALUES ('ATP500');
-INSERT INTO tournament_types (type_name) VALUES ('ATP1000');
-INSERT INTO tournament_types (type_name) VALUES ('Grand Slam');
+INSERT INTO tournament_types (tournament_type_name) VALUES ('ATP250');
+INSERT INTO tournament_types (tournament_type_name) VALUES ('ATP500');
+INSERT INTO tournament_types (tournament_type_name) VALUES ('ATP1000');
+INSERT INTO tournament_types (tournament_type_name) VALUES ('Grand Slam');

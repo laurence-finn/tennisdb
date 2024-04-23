@@ -15,34 +15,57 @@ CREATE TABLE tournaments (
 );
 
 -- Grand Slams
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Australian Open', TO_DATE('2022-01-17', 'YYYY-MM-DD'), 75000000, 'Australia', 2, 4);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('French Open', TO_DATE('2022-05-30', 'YYYY-MM-DD'), 44000000, 'France', 1, 4);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Wimbledon', TO_DATE('2022-06-27', 'YYYY-MM-DD'), 50000000, 'United Kingdom', 3, 4);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('US Open', TO_DATE('2022-08-29', 'YYYY-MM-DD'), 57000000, 'United States', 2, 4);
-
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Australian Open', TO_DATE('2022-01-17', 'YYYY-MM-DD'), 75000000, 'Australia', 2, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('French Open', TO_DATE('2022-05-30', 'YYYY-MM-DD'), 44000000, 'France', 1, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Wimbledon', TO_DATE('2022-06-27', 'YYYY-MM-DD'), 50000000, 'United Kingdom', 3, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('US Open', TO_DATE('2022-08-29', 'YYYY-MM-DD'), 57000000, 'United States', 2, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Australian Open', TO_DATE('2023-01-17', 'YYYY-MM-DD'), 75000000, 'Australia', 2, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('French Open', TO_DATE('2023-05-30', 'YYYY-MM-DD'), 44000000, 'France', 1, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Wimbledon', TO_DATE('2023-06-27', 'YYYY-MM-DD'), 50000000, 'United Kingdom', 3, 4);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('US Open', TO_DATE('2023-08-29', 'YYYY-MM-DD'), 57000000, 'United States', 2, 4);
 -- ATP1000
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Indian Wells Masters', TO_DATE('2022-03-10', 'YYYY-MM-DD'), 17000000, 'United States', 2, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Miami Open', TO_DATE('2022-03-23', 'YYYY-MM-DD'), 16900000, 'United States', 2, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Monte Carlo Masters', TO_DATE('2022-04-10', 'YYYY-MM-DD'), 14000000, 'Monaco', 1, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Madrid Open', TO_DATE('2022-05-02', 'YYYY-MM-DD'), 13000000, 'Spain', 1, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Italian Open', TO_DATE('2022-05-09', 'YYYY-MM-DD'), 12500000, 'Italy', 1, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Canadian Open', TO_DATE('2022-08-07', 'YYYY-MM-DD'), 14000000, 'Canada', 2, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Cincinnati Masters', TO_DATE('2022-08-14', 'YYYY-MM-DD'), 14000000, 'United States', 2, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Shanghai Masters', TO_DATE('2022-10-09', 'YYYY-MM-DD'), 14000000, 'China', 2, 3);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Paris Masters', TO_DATE('2022-10-31', 'YYYY-MM-DD'), 14000000, 'France', 2, 3);
-
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Indian Wells Masters', TO_DATE('2022-03-10', 'YYYY-MM-DD'), 17000000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Miami Open', TO_DATE('2022-03-23', 'YYYY-MM-DD'), 16900000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Monte Carlo Masters', TO_DATE('2022-04-10', 'YYYY-MM-DD'), 14000000, 'Monaco', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Madrid Open', TO_DATE('2022-05-02', 'YYYY-MM-DD'), 13000000, 'Spain', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Italian Open', TO_DATE('2022-05-09', 'YYYY-MM-DD'), 12500000, 'Italy', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Canadian Open', TO_DATE('2022-08-07', 'YYYY-MM-DD'), 14000000, 'Canada', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Cincinnati Masters', TO_DATE('2022-08-14', 'YYYY-MM-DD'), 14000000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Shanghai Masters', TO_DATE('2022-10-09', 'YYYY-MM-DD'), 14000000, 'China', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Paris Masters', TO_DATE('2022-10-31', 'YYYY-MM-DD'), 14000000, 'France', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Indian Wells Masters', TO_DATE('2023-03-10', 'YYYY-MM-DD'), 17000000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Miami Open', TO_DATE('2023-03-23', 'YYYY-MM-DD'), 16900000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Monte Carlo Masters', TO_DATE('2023-04-10', 'YYYY-MM-DD'), 14000000, 'Monaco', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Madrid Open', TO_DATE('2023-05-02', 'YYYY-MM-DD'), 13000000, 'Spain', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Italian Open', TO_DATE('2023-05-09', 'YYYY-MM-DD'), 12500000, 'Italy', 1, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Canadian Open', TO_DATE('2023-08-07', 'YYYY-MM-DD'), 14000000, 'Canada', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Cincinnati Masters', TO_DATE('2023-08-14', 'YYYY-MM-DD'), 14000000, 'United States', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Shanghai Masters', TO_DATE('2023-10-09', 'YYYY-MM-DD'), 14000000, 'China', 2, 3);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Paris Masters', TO_DATE('2023-10-31', 'YYYY-MM-DD'), 14000000, 'France', 2, 3);
 -- ATP500
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Rotterdam Open', TO_DATE('2022-02-07', 'YYYY-MM-DD'), 2000000, 'Netherlands', 2, 2);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Dubai Tennis Championships', TO_DATE('2022-02-21', 'YYYY-MM-DD'), 3000000, 'UAE', 2, 2);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Barcelona Open', TO_DATE('2022-04-18', 'YYYY-MM-DD'), 2500000, 'Spain', 1, 2);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Halle Open', TO_DATE('2022-06-13', 'YYYY-MM-DD'), 2000000, 'Germany', 3, 2);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Washington Open', TO_DATE('2022-08-01', 'YYYY-MM-DD'), 2000000, 'United States', 2, 2);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('China Open', TO_DATE('2022-10-03', 'YYYY-MM-DD'), 3500000, 'China', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Rotterdam Open', TO_DATE('2022-02-07', 'YYYY-MM-DD'), 2000000, 'Netherlands', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Dubai Tennis Championships', TO_DATE('2022-02-21', 'YYYY-MM-DD'), 3000000, 'UAE', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Barcelona Open', TO_DATE('2022-04-18', 'YYYY-MM-DD'), 2500000, 'Spain', 1, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Halle Open', TO_DATE('2022-06-13', 'YYYY-MM-DD'), 2000000, 'Germany', 3, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Washington Open', TO_DATE('2022-08-01', 'YYYY-MM-DD'), 2000000, 'United States', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('China Open', TO_DATE('2022-10-03', 'YYYY-MM-DD'), 3500000, 'China', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Rotterdam Open', TO_DATE('2023-02-07', 'YYYY-MM-DD'), 2000000, 'Netherlands', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Dubai Tennis Championships', TO_DATE('2023-02-21', 'YYYY-MM-DD'), 3000000, 'UAE', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Barcelona Open', TO_DATE('2023-04-18', 'YYYY-MM-DD'), 2500000, 'Spain', 1, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Halle Open', TO_DATE('2023-06-13', 'YYYY-MM-DD'), 2000000, 'Germany', 3, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Washington Open', TO_DATE('2023-08-01', 'YYYY-MM-DD'), 2000000, 'United States', 2, 2);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('China Open', TO_DATE('2023-10-03', 'YYYY-MM-DD'), 3500000, 'China', 2, 2);
 
 -- ATP250
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Qatar Open', TO_DATE('2022-02-14', 'YYYY-MM-DD'), 1400000, 'Qatar', 2, 1);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Munich Open', TO_DATE('2022-04-25', 'YYYY-MM-DD'), 600000, 'Germany', 1, 1);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Stuttgart Open', TO_DATE('2022-06-06', 'YYYY-MM-DD'), 800000, 'Germany', 3, 1);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Los Cabos Open', TO_DATE('2022-08-01', 'YYYY-MM-DD'), 850000, 'Mexico', 2, 1);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Sofia Open', TO_DATE('2022-09-26', 'YYYY-MM-DD'), 750000, 'Bulgaria', 2, 1);
-INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, type_id) VALUES ('Moscow Open', TO_DATE('2022-10-17', 'YYYY-MM-DD'), 1000000, 'Russia', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Qatar Open', TO_DATE('2022-02-14', 'YYYY-MM-DD'), 1400000, 'Qatar', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Munich Open', TO_DATE('2022-04-25', 'YYYY-MM-DD'), 600000, 'Germany', 1, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Stuttgart Open', TO_DATE('2022-06-06', 'YYYY-MM-DD'), 800000, 'Germany', 3, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Los Cabos Open', TO_DATE('2022-08-01', 'YYYY-MM-DD'), 850000, 'Mexico', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Sofia Open', TO_DATE('2022-09-26', 'YYYY-MM-DD'), 750000, 'Bulgaria', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Moscow Open', TO_DATE('2022-10-17', 'YYYY-MM-DD'), 1000000, 'Russia', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Qatar Open', TO_DATE('2023-02-14', 'YYYY-MM-DD'), 1400000, 'Qatar', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Munich Open', TO_DATE('2023-04-25', 'YYYY-MM-DD'), 600000, 'Germany', 1, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Stuttgart Open', TO_DATE('2023-06-06', 'YYYY-MM-DD'), 800000, 'Germany', 3, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Los Cabos Open', TO_DATE('2023-08-01', 'YYYY-MM-DD'), 850000, 'Mexico', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Sofia Open', TO_DATE('2023-09-26', 'YYYY-MM-DD'), 750000, 'Bulgaria', 2, 1);
+INSERT INTO tournaments (name, tournament_date, prize_money, country, surface_id, tournament_type_id) VALUES ('Moscow Open', TO_DATE('2023-10-17', 'YYYY-MM-DD'), 1000000, 'Russia', 2, 1);
